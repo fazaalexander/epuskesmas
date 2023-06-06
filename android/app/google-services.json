@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "823271589581",
+    "firebase_url": "https://epuskesmas-d55b0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "epuskesmas-d55b0",
+    "storage_bucket": "epuskesmas-d55b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823271589581:android:a50f6e7d9be46bf4a24b84",
+        "android_client_info": {
+          "package_name": "com.example.epuskesmas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823271589581-3dmmhv4pttfk7lj0n2ishpscbtum9tcc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.epuskesmas",
+            "certificate_hash": "8a6a8da56a404932fe0c11e09e654d4e658f8624"
+          }
+        },
+        {
+          "client_id": "823271589581-i3ohf42v08cpcii67dtae2m3lqbpkdli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHqE15l78LFP5Ka2MzZpMCzVdsg4nC_VU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823271589581-i3ohf42v08cpcii67dtae2m3lqbpkdli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

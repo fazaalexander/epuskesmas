@@ -2,33 +2,9 @@ import 'package:epuskesmas/login.dart';
 
 import 'registrasi.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'ePuskesmas',
-      theme: ThemeData(
-        primarySwatch: Colors.lightBlue,
-      ),
-      home: const MyHomePage(title: 'ePuskesmas'),
-    );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-
-  final String title;
+class WelcomePage extends StatelessWidget {
+  const WelcomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -90,18 +66,6 @@ class MyHomePage extends StatelessWidget {
               ),
             ),
           ),
-          // Expanded(
-          //   child: Align(
-          //     alignment: Alignment.bottomRight,
-          //     child: IgnorePointer(
-          //       child: Image.asset(
-          //         'assets/images/wave.png',
-          //         fit: BoxFit.fitWidth,
-          //         height: screenHeight * 0.4,
-          //       ),
-          //     ),
-          //   ),
-          // ),
         ],
       ),
     );
